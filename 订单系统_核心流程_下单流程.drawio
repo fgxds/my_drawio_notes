@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="VdBE7myc_M7ouZTbn6QC">
-    <mxGraphModel dx="1663" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <UserObject label="" styleRules="[{&quot;property&quot;:&quot;@role&quot;,&quot;op&quot;:&quot;=&quot;,&quot;value&quot;:&quot;terminal&quot;,&quot;style&quot;:{&quot;fillColor&quot;:&quot;#D5E8D4&quot;,&quot;strokeColor&quot;:&quot;#82B366&quot;,&quot;fontColor&quot;:&quot;#1A1A1A&quot;}},{&quot;property&quot;:&quot;@role&quot;,&quot;op&quot;:&quot;=&quot;,&quot;value&quot;:&quot;process&quot;,&quot;style&quot;:{&quot;fillColor&quot;:&quot;#DAE8FC&quot;,&quot;strokeColor&quot;:&quot;#6C8EBF&quot;,&quot;fontColor&quot;:&quot;#1A1A1A&quot;}},{&quot;property&quot;:&quot;@role&quot;,&quot;op&quot;:&quot;=&quot;,&quot;value&quot;:&quot;decision&quot;,&quot;style&quot;:{&quot;fillColor&quot;:&quot;#FFF2CC&quot;,&quot;strokeColor&quot;:&quot;#D6B656&quot;,&quot;fontColor&quot;:&quot;#1A1A1A&quot;}}]" id="0">
           <mxCell />
@@ -109,16 +109,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QP5bma6ZBxi3kjigxsIF-21" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=12;strokeWidth=2;roundedPerimeter=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#1A1A1A;role=process;roleBase=fillColor:%23DAE8FC,strokeColor:%236C8EBF,fontColor:%231A1A1A;fontFamily=Helvetica;fontSize=12;" value="计算金额，创建订单" vertex="1">
-          <mxGeometry height="60" width="120" x="320" y="950" as="geometry" />
+          <mxGeometry height="60" width="120" x="320" y="1030" as="geometry" />
         </mxCell>
         <mxCell id="QP5bma6ZBxi3kjigxsIF-26" edge="1" parent="1" source="QP5bma6ZBxi3kjigxsIF-23" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=#4D4D4D;strokeWidth=1;" target="QP5bma6ZBxi3kjigxsIF-25" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QP5bma6ZBxi3kjigxsIF-23" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=12;strokeWidth=2;roundedPerimeter=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#1A1A1A;role=process;roleBase=fillColor:%23DAE8FC,strokeColor:%236C8EBF,fontColor:%231A1A1A;fontFamily=Helvetica;fontSize=12;" value="发消息到mq，通知下游业务" vertex="1">
-          <mxGeometry height="60" width="120" x="320" y="1050" as="geometry" />
+          <mxGeometry height="60" width="120" x="320" y="1130" as="geometry" />
         </mxCell>
         <mxCell id="QP5bma6ZBxi3kjigxsIF-25" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#D5E8D4;strokeColor=#82B366;fontColor=#1A1A1A;role=terminal;roleBase=fillColor:%23D5E8D4,strokeColor:%2382B366,fontColor:%231A1A1A;fontFamily=Helvetica;fontSize=12;" value="下单成功" vertex="1">
-          <mxGeometry height="60" width="100" x="330" y="1135" as="geometry" />
+          <mxGeometry height="60" width="100" x="330" y="1215" as="geometry" />
         </mxCell>
         <mxCell id="QP5bma6ZBxi3kjigxsIF-36" edge="1" parent="1" source="QP5bma6ZBxi3kjigxsIF-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;strokeColor=#4D4D4D;strokeWidth=1;" target="QP5bma6ZBxi3kjigxsIF-35" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -191,6 +191,9 @@
         </mxCell>
         <mxCell id="QP5bma6ZBxi3kjigxsIF-68" edge="1" parent="1" source="QP5bma6ZBxi3kjigxsIF-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="QP5bma6ZBxi3kjigxsIF-43">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kcj2ge0ilxp6sBR3l70J-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;absoluteArcSize=1;arcSize=12;strokeWidth=2;roundedPerimeter=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontColor=#1A1A1A;role=process;roleBase=fillColor:%23DAE8FC,strokeColor:%236C8EBF,fontColor:%231A1A1A;fontFamily=Helvetica;fontSize=12;" value="删除缓存对应的商品信息" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="950" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
